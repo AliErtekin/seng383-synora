@@ -1,0 +1,66 @@
+name: Node CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  backend:
+    name: Backend
+    runs-on: ubuntu-latest
+    steps:
+      - name: Kodu indir
+        uses: actions/checkout@v4
+
+      - name: Node kur
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Bağımlılıkları kur
+        if: hashFiles('backend/package.json') != ''
+        working-directory: backend
+        run: npm ci
+
+      - name: Testleri çalıştır
+        if: hashFiles('backend/package.json') != ''
+        working-directory: backend
+        run: npm test
+
+      - name: Klasör kontrolü
+        if: hashFiles('backend/package.json') == ''
+        run: echo "backend klasörü henüz yok, adımlar atlandı"
+
+  frontend:
+    name: Frontend
+    runs-on: ubuntu-latest
+    steps:
+      - name: Kodu indir
+        uses: actions/checkout@v4
+
+      - name: Node kur
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Bağımlılıkları kur
+        if: hashFiles('frontend/package.json') != ''
+        working-directory: frontend
+        run: npm ci
+
+      - name: Testleri çalıştır
+        if: hashFiles('frontend/package.json') != ''
+        working-directory: frontend
+        run: npm test
+
+      - name: Derleme (varsa)
+        if: hashFiles('frontend/package.json') != ''
+        working-directory: frontend
+        run: npm run build --if-present
+
+      - name: Klasör kontrolü
+        if: hashFiles('frontend/package.json') == ''
+        run: echo "frontend klasörü henüz yok, adımlar atlandı"
