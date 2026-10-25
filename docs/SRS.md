@@ -2,7 +2,7 @@
 
 **Team name:** SYNORA  
 **Version:** ☒ First version (Week 6) ☐ Final (Week 10)  
-**Last updated:** 2026-10-25
+**Last updated:**  2026-10-25
 
 ---
 
