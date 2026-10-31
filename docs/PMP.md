@@ -19,7 +19,7 @@
 
 ### Project and Jira Setup
 
-**Project in one sentence:**  **Project in one sentence:** An AI-assisted web platform that brings parents, specialists and children together around a shared schedule, task list and record of observations, with role-based AI summaries that support human decisions.
+**Project in one sentence:** An AI-assisted web platform that brings parents, specialists and children together around a shared schedule, task list and record of observations, with role-based AI summaries that support human decisions.
 **Jira project key:**  SCRUM
 **Jira board link:**  https://g9synora.atlassian.net/jira/software/projects/SCRUM/boards/1
 
