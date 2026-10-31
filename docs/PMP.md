@@ -1,4 +1,4 @@
-# Project Management Plan (PMP)
+    y# Project Management Plan (PMP)
 
 > The purpose of this PMP is to practice planning and tracking work in Jira. Keep it short: most of the content is a summary of what you set up in Jira.
 > Keep this file at `docs/PMP.md`. Each section is one Jira epic (PMP-1 … PMP-6); mark the epic Done when the section is complete.
@@ -29,7 +29,7 @@
 |---|---|---|
 | Ali Ertekin | AliErtekin | developer |
 | Muhammed Eren Yanık | yanikeren | developer |
-| Bora Yaman | BoraY400 | developer, project manager|
+| Bora Yaman | BoraY400 | developer, project manager |
 
 ---
 
