@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 409" width="800" height="409" role="img" aria-labelledby="title desc">
+  <title id="title">Görevlerim ve takvimim</title>
+  <desc id="desc">Görevlerim ve takvimim ekran taslağı. M3 / M4.</desc>
+  <g font-family="DejaVu Sans, Arial, sans-serif">
+    <rect x="0" y="0" width="800" height="409" rx="0" fill="#EEF2F7" stroke="none"/>
+    <text x="26" y="41" font-size="23" font-weight="700" fill="#172B45" text-anchor="start">Görevlerim ve takvimim</text>
+    <text x="774" y="39" font-size="11" font-weight="700" fill="#51657E" text-anchor="end">EKRAN TASLAĞI  ·  M3 / M4</text>
+    <rect x="26" y="59" width="748" height="329" rx="10" fill="#FFFFFF" stroke="#C8D3E1"/>
+    <text x="48" y="85" font-size="14" font-weight="700" fill="#172B45" text-anchor="start">Çocuk Gelişim Platformu</text>
+    <text x="752" y="85" font-size="12" font-weight="400" fill="#51657E" text-anchor="end">Çocuk</text>
+    <path d="M26 101h748" stroke="#C8D3E1"/>
+    <text x="48" y="138" font-size="20" font-weight="700" fill="#172B45" text-anchor="start">Bu hafta</text>
+    <text x="48" y="159" font-size="12" font-weight="400" fill="#51657E" text-anchor="start">2–8 Kasım 2026</text>
+    <rect x="48" y="180" width="425" height="180" rx="8" fill="#FFFFFF" stroke="#C8D3E1"/><text x="63" y="204" font-size="15" font-weight="700" fill="#172B45" text-anchor="start">Görevlerim</text>
+    <text x="63" y="234" font-size="13" font-weight="400" fill="#263C56" text-anchor="start">20 dakika oku</text>
+    <text x="63" y="255" font-size="12" font-weight="400" fill="#51657E" text-anchor="start">Son tarih  ·  6 Kasım</text>
+    <rect x="363" y="217" width="95" height="30" rx="5" fill="#234D79" stroke="#234D79"/><text x="410.5" y="236" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">Tamamla</text>
+    <path d="M63 274h395" stroke="#C8D3E1"/>
+    <text x="63" y="304" font-size="13" font-weight="400" fill="#263C56" text-anchor="start">Resim yap</text>
+    <rect x="355" y="287" width="103" height="23" rx="11" fill="#E7F3EC" stroke="none"/><text x="406.5" y="302" font-size="11" font-weight="700" fill="#2D6243" text-anchor="middle">Tamamlandı</text>
+    <rect x="487" y="180" width="265" height="180" rx="8" fill="#FFFFFF" stroke="#C8D3E1"/><text x="502" y="204" font-size="15" font-weight="700" fill="#172B45" text-anchor="start">Takvimim</text>
+    <text x="502" y="232" font-size="13" font-weight="400" fill="#263C56" text-anchor="start">4 Kasım   15.00</text>
+    <text x="502" y="251" font-size="12" font-weight="400" fill="#51657E" text-anchor="start">Okuma çalışması</text>
+    <text x="502" y="286" font-size="13" font-weight="400" fill="#263C56" text-anchor="start">6 Kasım   10.30</text>
+    <text x="502" y="305" font-size="12" font-weight="400" fill="#51657E" text-anchor="start">Uzman görüşmesi</text>
+  </g>
+</svg>

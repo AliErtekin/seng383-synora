@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 518" width="800" height="518" role="img" aria-labelledby="title desc">
+  <title id="title">Uzman çalışma alanı</title>
+  <desc id="desc">Uzman çalışma alanı ekran taslağı. M2 / M3 / M5 / M7 / M8.</desc>
+  <g font-family="DejaVu Sans, Arial, sans-serif">
+    <rect x="0" y="0" width="800" height="518" rx="0" fill="#EEF2F7" stroke="none"/>
+    <text x="26" y="41" font-size="23" font-weight="700" fill="#172B45" text-anchor="start">Uzman çalışma alanı</text>
+    <text x="774" y="39" font-size="11" font-weight="700" fill="#51657E" text-anchor="end">EKRAN TASLAĞI  ·  M2 / M3 / M5 / M7 / M8</text>
+    <rect x="26" y="59" width="748" height="438" rx="10" fill="#FFFFFF" stroke="#C8D3E1"/>
+    <text x="48" y="85" font-size="14" font-weight="700" fill="#172B45" text-anchor="start">Çocuk Gelişim Platformu</text>
+    <text x="752" y="85" font-size="12" font-weight="400" fill="#51657E" text-anchor="end">Uzman</text>
+    <path d="M26 101h748" stroke="#C8D3E1"/>
+    <text x="48" y="138" font-size="19" font-weight="700" fill="#172B45" text-anchor="start">Bağlı çocuklar › Örnek profil</text>
+    <text x="48" y="160" font-size="12" font-weight="400" fill="#51657E" text-anchor="start">2–8 Kasım 2026  ·  Takvim  ·  İlerleme</text>
+    <rect x="554" y="122" width="96" height="30" rx="5" fill="#E7F0FB" stroke="#C8D3E1"/><text x="602" y="141" font-size="12" font-weight="700" fill="#234D79" text-anchor="middle">Görev ata</text>
+    <rect x="662" y="122" width="90" height="30" rx="5" fill="#E7F0FB" stroke="#C8D3E1"/><text x="707" y="141" font-size="12" font-weight="700" fill="#234D79" text-anchor="middle">Belgeler</text>
+    <rect x="48" y="182" width="425" height="204" rx="8" fill="#FFFFFF" stroke="#C8D3E1"/><text x="63" y="206" font-size="15" font-weight="700" fill="#172B45" text-anchor="start">Yeni gözlem</text>
+    <text x="63" y="229" font-size="12" font-weight="700" fill="#263C56" text-anchor="start">Gözlem tarihi</text><rect x="63" y="237" width="164" height="31" rx="5" fill="#F5F8FC" stroke="#C8D3E1"/><text x="72" y="257" font-size="12" font-weight="400" fill="#51657E" text-anchor="start">05.11.2026</text>
+    <text x="63" y="290" font-size="12" font-weight="700" fill="#263C56" text-anchor="start">Gözlem</text>
+    <rect x="63" y="298" width="395" height="40" rx="5" fill="#F5F8FC" stroke="#C8D3E1"/>
+    <text x="73" y="321" font-size="12" font-weight="400" fill="#51657E" text-anchor="start">Örnek gözlem metni</text>
+    <rect x="63" y="347" width="91" height="30" rx="5" fill="#234D79" stroke="#234D79"/><text x="108.5" y="366" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">Kaydet</text>
+    <rect x="48" y="396" width="425" height="80" rx="8" fill="#FFFFFF" stroke="#C8D3E1"/><text x="63" y="420" font-size="15" font-weight="700" fill="#172B45" text-anchor="start">Son gözlem  ·  5 Kasım</text>
+    <text x="63" y="452" font-size="13" font-weight="400" fill="#263C56" text-anchor="start">Okuma çalışması</text>
+    <rect x="262" y="434" width="87" height="23" rx="11" fill="#F5F8FC" stroke="none"/><text x="305.5" y="449" font-size="11" font-weight="700" fill="#51657E" text-anchor="middle">Düzenlendi</text>
+    <rect x="363" y="430" width="95" height="30" rx="5" fill="#E7F0FB" stroke="#C8D3E1"/><text x="410.5" y="449" font-size="12" font-weight="700" fill="#234D79" text-anchor="middle">Düzenle</text>
+    <rect x="487" y="182" width="265" height="159" rx="8" fill="#FFFFFF" stroke="#C8D3E1"/><text x="502" y="206" font-size="15" font-weight="700" fill="#172B45" text-anchor="start">Haftalık yapay zekâ özeti</text>
+    <rect x="502" y="218" width="102" height="23" rx="11" fill="#F5F8FC" stroke="none"/><text x="553" y="233" font-size="11" font-weight="700" fill="#51657E" text-anchor="middle">AI-generated</text>
+    <text x="502" y="261" font-size="13" font-weight="400" fill="#263C56" text-anchor="start">5 Kasım’da okuma gözlemi girildi.</text>
+    <text x="502" y="286" font-size="12" font-weight="700" fill="#234D79" text-anchor="start">Kaynak  ·  Okuma çalışması</text>
+    <rect x="502" y="300" width="103" height="30" rx="5" fill="#E7F0FB" stroke="#C8D3E1"/><text x="553.5" y="319" font-size="12" font-weight="700" fill="#234D79" text-anchor="middle">Özet oluştur</text>
+    <rect x="487" y="353" width="265" height="123" rx="8" fill="#FFFFFF" stroke="#C8D3E1"/><text x="502" y="377" font-size="15" font-weight="700" fill="#172B45" text-anchor="start">Haftalık takvim</text>
+    <text x="502" y="400" font-size="13" font-weight="400" fill="#263C56" text-anchor="start">4 Kasım  ·  Okuma çalışması</text>
+    <rect x="502" y="431" width="109" height="30" rx="5" fill="#E7F0FB" stroke="#C8D3E1"/><text x="556.5" y="450" font-size="12" font-weight="700" fill="#234D79" text-anchor="middle">Etkinlik ekle</text>
+  </g>
+</svg>
