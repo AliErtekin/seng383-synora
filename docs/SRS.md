@@ -1,7 +1,7 @@
 # Software Requirements Specification (SRS)
 
 **Team name:** SYNORA  
-**Version:** ☒ First version (Week 6) ☐ Final (Week 10)  
+**Version:** ☐ First version ☒ Final (Week 6 submission)  
 **Last updated:** 2026-11-08
 
 ---
@@ -162,3 +162,4 @@ flowchart LR
 |---|---|---|
 | 2026-10-25 | First version | SYNORA team |
 | 2026-11-08 | Clarified role workflows and linked requirements to the Week 6 design. | SYNORA team |
+| 2026-11-08 | Marked as final Week 6 submission. | SYNORA team |
