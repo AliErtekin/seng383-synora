@@ -28,7 +28,7 @@ flowchart TB
 | Frontend | React with Vite |
 | Backend | Node.js and Express, REST API, JWT authentication |
 | Database | SQLite through `better-sqlite3`, with a planned synthetic data seed script |
-| AI | Backend adapter for the Claude API (Anthropic) and a deterministic mock |
+| AI | Backend adapter for the Gemini API and a deterministic mock |
 | Testing | Jest and Supertest for backend and API tests, Vitest for frontend tests, Playwright for end-to-end tests |
 | CI | GitHub Actions with AI mock mode enabled |
 
@@ -286,4 +286,5 @@ sequenceDiagram
 | Date | Change | By |
 |---|---|---|
 | 2026-11-08 | First version | SYNORA team |
-| 2026-11-08 | Marked as final Week 6 submission; AI provider set to Claude API. | SYNORA team |
+| 2026-11-08 | Marked as final Week 6 submission. | SYNORA team |
+| 2026-11-08 | AI provider set to Gemini API. | SYNORA team |
