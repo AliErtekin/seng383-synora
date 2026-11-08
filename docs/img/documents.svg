@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 399" width="800" height="399" role="img" aria-labelledby="title desc">
+  <title id="title">Belgeler</title>
+  <desc id="desc">Belgeler ekran taslağı. M6.</desc>
+  <g font-family="DejaVu Sans, Arial, sans-serif">
+    <rect x="0" y="0" width="800" height="399" rx="0" fill="#EEF2F7" stroke="none"/>
+    <text x="26" y="41" font-size="23" font-weight="700" fill="#172B45" text-anchor="start">Belgeler</text>
+    <text x="774" y="39" font-size="11" font-weight="700" fill="#51657E" text-anchor="end">EKRAN TASLAĞI  ·  M6</text>
+    <rect x="26" y="59" width="748" height="319" rx="10" fill="#FFFFFF" stroke="#C8D3E1"/>
+    <text x="48" y="85" font-size="14" font-weight="700" fill="#172B45" text-anchor="start">Çocuk Gelişim Platformu</text>
+    <text x="752" y="85" font-size="12" font-weight="400" fill="#51657E" text-anchor="end">Ebeveyn / Bağlı uzman</text>
+    <path d="M26 101h748" stroke="#C8D3E1"/>
+    <text x="48" y="138" font-size="20" font-weight="700" fill="#172B45" text-anchor="start">Örnek profil · Belgeler</text>
+    <rect x="48" y="157" width="704" height="74" rx="8" fill="#FFFFFF" stroke="#C8D3E1"/><text x="63" y="181" font-size="15" font-weight="700" fill="#172B45" text-anchor="start">Belge yükle</text>
+    <text x="63" y="204" font-size="12" font-weight="400" fill="#51657E" text-anchor="start">Kabul edilen dosyalar  ·  PDF, PNG, JPEG</text>
+    <rect x="546" y="179" width="100" height="30" rx="5" fill="#E7F0FB" stroke="#C8D3E1"/><text x="596" y="198" font-size="12" font-weight="700" fill="#234D79" text-anchor="middle">Dosya seç</text>
+    <rect x="658" y="179" width="79" height="30" rx="5" fill="#234D79" stroke="#234D79"/><text x="697.5" y="198" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">Yükle</text>
+    <rect x="48" y="245" width="704" height="111" rx="8" fill="#FFFFFF" stroke="#C8D3E1"/>
+    <text x="63" y="270" font-size="12" font-weight="700" fill="#263C56" text-anchor="start">Dosya adı</text>
+    <text x="253" y="270" font-size="12" font-weight="700" fill="#263C56" text-anchor="start">Tür</text>
+    <text x="320" y="270" font-size="12" font-weight="700" fill="#263C56" text-anchor="start">Yükleyen</text>
+    <text x="445" y="270" font-size="12" font-weight="700" fill="#263C56" text-anchor="start">Tarih</text>
+    <path d="M48 282h704" stroke="#C8D3E1"/>
+    <text x="63" y="313" font-size="13" font-weight="400" fill="#263C56" text-anchor="start">ornek-calisma.pdf</text>
+    <text x="253" y="313" font-size="13" font-weight="400" fill="#263C56" text-anchor="start">PDF</text>
+    <text x="320" y="313" font-size="13" font-weight="400" fill="#263C56" text-anchor="start">Örnek uzman</text>
+    <text x="445" y="313" font-size="13" font-weight="400" fill="#263C56" text-anchor="start">05.11.2026</text>
+    <rect x="558" y="294" width="79" height="30" rx="5" fill="#E7F0FB" stroke="#C8D3E1"/><text x="597.5" y="313" font-size="12" font-weight="700" fill="#234D79" text-anchor="middle">Görüntüle</text>
+    <rect x="648" y="294" width="89" height="30" rx="5" fill="#E7F0FB" stroke="#C8D3E1"/><text x="692.5" y="313" font-size="12" font-weight="700" fill="#234D79" text-anchor="middle">İndir</text>
+  </g>
+</svg>

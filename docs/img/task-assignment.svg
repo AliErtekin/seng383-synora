@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" role="img" aria-labelledby="title desc">
+  <title id="title">Görev atama ve takip</title>
+  <desc id="desc">Görev atama ve takip ekran taslağı. M4.</desc>
+  <g font-family="DejaVu Sans, Arial, sans-serif">
+    <rect x="0" y="0" width="800" height="500" rx="0" fill="#EEF2F7" stroke="none"/>
+    <text x="26" y="41" font-size="23" font-weight="700" fill="#172B45" text-anchor="start">Görev atama ve takip</text>
+    <text x="774" y="39" font-size="11" font-weight="700" fill="#51657E" text-anchor="end">EKRAN TASLAĞI  ·  M4</text>
+    <rect x="26" y="59" width="748" height="420" rx="10" fill="#FFFFFF" stroke="#C8D3E1"/>
+    <text x="48" y="85" font-size="14" font-weight="700" fill="#172B45" text-anchor="start">Çocuk Gelişim Platformu</text>
+    <text x="752" y="85" font-size="12" font-weight="400" fill="#51657E" text-anchor="end">Ebeveyn / Bağlı uzman</text>
+    <path d="M26 101h748" stroke="#C8D3E1"/>
+    <text x="48" y="138" font-size="20" font-weight="700" fill="#172B45" text-anchor="start">Örnek profil</text>
+    <text x="48" y="159" font-size="12" font-weight="400" fill="#51657E" text-anchor="start">Yeni görev oluştur ve atadığın görevlerin durumunu izle.</text>
+    <rect x="48" y="180" width="330" height="272" rx="8" fill="#FFFFFF" stroke="#C8D3E1"/><text x="63" y="204" font-size="15" font-weight="700" fill="#172B45" text-anchor="start">Yeni görev</text>
+    <text x="63" y="227" font-size="12" font-weight="700" fill="#263C56" text-anchor="start">Başlık</text><rect x="63" y="235" width="300" height="31" rx="5" fill="#F5F8FC" stroke="#C8D3E1"/><text x="72" y="255" font-size="12" font-weight="400" fill="#51657E" text-anchor="start">20 dakika oku</text>
+    <text x="63" y="281" font-size="12" font-weight="700" fill="#263C56" text-anchor="start">Açıklama</text><rect x="63" y="289" width="300" height="31" rx="5" fill="#F5F8FC" stroke="#C8D3E1"/><text x="72" y="309" font-size="12" font-weight="400" fill="#51657E" text-anchor="start">Bir bölüm oku.</text>
+    <text x="63" y="335" font-size="12" font-weight="700" fill="#263C56" text-anchor="start">Gelişim alanı</text><rect x="63" y="343" width="145" height="31" rx="5" fill="#F5F8FC" stroke="#C8D3E1"/><text x="72" y="363" font-size="12" font-weight="400" fill="#51657E" text-anchor="start">Dil  ▾</text>
+    <text x="218" y="335" font-size="12" font-weight="700" fill="#263C56" text-anchor="start">Son tarih</text><rect x="218" y="343" width="145" height="31" rx="5" fill="#F5F8FC" stroke="#C8D3E1"/><text x="227" y="363" font-size="12" font-weight="400" fill="#51657E" text-anchor="start">06.11.2026</text>
+    <rect x="63" y="398" width="105" height="30" rx="5" fill="#234D79" stroke="#234D79"/><text x="115.5" y="417" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">Görev ata</text>
+    <rect x="394" y="180" width="358" height="272" rx="8" fill="#FFFFFF" stroke="#C8D3E1"/><text x="409" y="204" font-size="15" font-weight="700" fill="#172B45" text-anchor="start">Atadığım görevler</text>
+    <text x="409" y="232" font-size="13" font-weight="400" fill="#263C56" text-anchor="start">20 dakika oku</text>
+    <text x="409" y="252" font-size="12" font-weight="400" fill="#51657E" text-anchor="start">Dil  ·  6 Kasım</text>
+    <rect x="623" y="218" width="110" height="23" rx="11" fill="#F5F8FC" stroke="none"/><text x="678" y="233" font-size="11" font-weight="700" fill="#51657E" text-anchor="middle">Bekliyor</text>
+    <path d="M409 274h324" stroke="#C8D3E1"/>
+    <text x="409" y="304" font-size="13" font-weight="400" fill="#263C56" text-anchor="start">Resim yap</text>
+    <text x="409" y="324" font-size="12" font-weight="400" fill="#51657E" text-anchor="start">Motor  ·  5 Kasım</text>
+    <rect x="623" y="290" width="110" height="23" rx="11" fill="#E7F3EC" stroke="none"/><text x="678" y="305" font-size="11" font-weight="700" fill="#2D6243" text-anchor="middle">Tamamlandı</text>
+  </g>
+</svg>
