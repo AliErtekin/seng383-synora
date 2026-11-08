@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 385" width="800" height="385" role="img" aria-labelledby="title desc">
+  <title id="title">Oturum açma</title>
+  <desc id="desc">Oturum açma ekran taslağı. M1.</desc>
+  <g font-family="DejaVu Sans, Arial, sans-serif">
+    <rect x="0" y="0" width="800" height="385" rx="0" fill="#EEF2F7" stroke="none"/>
+    <text x="26" y="41" font-size="23" font-weight="700" fill="#172B45" text-anchor="start">Oturum açma</text>
+    <text x="774" y="39" font-size="11" font-weight="700" fill="#51657E" text-anchor="end">EKRAN TASLAĞI  ·  M1</text>
+    <rect x="26" y="59" width="748" height="305" rx="10" fill="#FFFFFF" stroke="#C8D3E1"/>
+    <text x="48" y="85" font-size="14" font-weight="700" fill="#172B45" text-anchor="start">Çocuk Gelişim Platformu</text>
+    <text x="752" y="85" font-size="12" font-weight="400" fill="#51657E" text-anchor="end">Giriş</text>
+    <path d="M26 101h748" stroke="#C8D3E1"/>
+    <text x="257" y="149" font-size="22" font-weight="700" fill="#172B45" text-anchor="start">Giriş yap</text>
+    <text x="257" y="172" font-size="12" font-weight="400" fill="#51657E" text-anchor="start">E-posta ve şifrenizle giriş yapın.</text>
+    <text x="257" y="202" font-size="12" font-weight="700" fill="#263C56" text-anchor="start">E-posta</text><rect x="257" y="210" width="286" height="31" rx="5" fill="#F5F8FC" stroke="#C8D3E1"/><text x="266" y="230" font-size="12" font-weight="400" fill="#51657E" text-anchor="start">kullanici@example.test</text>
+    <text x="257" y="261" font-size="12" font-weight="700" fill="#263C56" text-anchor="start">Şifre</text><rect x="257" y="269" width="286" height="31" rx="5" fill="#F5F8FC" stroke="#C8D3E1"/><text x="266" y="289" font-size="12" font-weight="400" fill="#51657E" text-anchor="start">••••••••</text>
+    <rect x="257" y="316" width="286" height="30" rx="5" fill="#234D79" stroke="#234D79"/><text x="400" y="335" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">Giriş yap</text>
+  </g>
+</svg>
