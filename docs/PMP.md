@@ -1,4 +1,4 @@
-    y# Project Management Plan (PMP)
+# Project Management Plan (PMP)
 
 > The purpose of this PMP is to practice planning and tracking work in Jira. Keep it short: most of the content is a summary of what you set up in Jira.
 > Keep this file at `docs/PMP.md`. Each section is one Jira epic (PMP-1 … PMP-6); mark the epic Done when the section is complete.
@@ -49,6 +49,7 @@
 | M6 | Ali Ertekin | 2 | Sprint 3 |
 | M7 | Ali Ertekin | 2 | Sprint 3 |
 | M8 | Ali Ertekin | 3 | Sprint 3,4|
+| DESIGN | Ali Ertekin | 2 | Sprint 2 |
 
 ### Sprint Plan
 
