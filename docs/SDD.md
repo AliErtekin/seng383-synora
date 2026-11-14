@@ -1,7 +1,7 @@
 # Software Design Document (SDD)
 
 **Team name:** SYNORA\
-**Version:** ☐ First version ☒ Final (Week 6 submission)\
+**Version:** ☒ First version (Week 6) ☐ Final (Week 10)\
 **Last updated:** 2026-11-08
 
 ---
@@ -287,4 +287,5 @@ sequenceDiagram
 |---|---|---|
 | 2026-11-08 | First version | SYNORA team |
 | 2026-11-08 | Marked as final Week 6 submission. | SYNORA team |
+| 2026-11-14 | Returned to first version: the course schedule sets the final version for Week 10. | SYNORA team |
 | 2026-11-08 | AI provider set to Gemini API. | SYNORA team |
