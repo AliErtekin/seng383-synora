@@ -32,6 +32,7 @@ cd seng383-synora
 # 2. Start the backend (terminal 1) – http://localhost:3001
 cd backend
 npm install
+npm run seed     # creates the synthetic demo accounts (safe to run again)
 npm start
 
 # 3. Start the frontend (terminal 2) – http://localhost:5173
@@ -41,6 +42,20 @@ npm run dev
 ```
 
 Open http://localhost:5173. The page shows `Backend status: ok` when the frontend, API and database are connected. You can also check the API directly: http://localhost:3001/api/health returns `{"status":"ok"}`.
+
+### Demo accounts
+
+`npm run seed` creates three synthetic accounts. All use the password `Demo1234!`.
+
+| Email | Role |
+|---|---|
+| parent@synora.test | parent |
+| teacher@synora.test | specialist |
+| child@synora.test | child |
+
+Log in through the API: `POST http://localhost:3001/api/auth/login` with `{"email": "...", "password": "..."}` returns a JWT. Send it as `Authorization: Bearer <token>` on protected routes such as `GET /api/auth/me`.
+
+Set `JWT_SECRET` in the environment for anything beyond local development; a fixed development secret is used otherwise.
 
 ## Run the tests
 
@@ -54,7 +69,7 @@ cd frontend && npm test     # Vitest + Testing Library, with coverage
 ```
 backend/    Express API and SQLite access (src/), tests (tests/)
 frontend/   React app (src/), tests (tests/)
-docs/       PMP.md (project management plan), SRS.md (requirements)
+docs/       PMP.md (project management plan), SRS.md (requirements), SDD.md (design)
 .github/    GitHub Actions CI workflow
 ```
 
