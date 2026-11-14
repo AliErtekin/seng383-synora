@@ -42,7 +42,7 @@
 | Epic | Owner | Number of tasks | Planned sprint(s) |
 |---|---|---|---|
 | M1 | Ali Ertekin | 7 | Sprint 1,2,4 |
-| M2 | Ali Ertekin | 3 | Sprint 2 |
+| M2 | Muhammed Eren Yanık | 3 | Sprint 2 |
 | M3 | Ali Ertekin | 2 | Sprint 2 |
 | M4 | Ali Ertekin | 2 | Sprint 2 |
 | M5 | Ali Ertekin | 2 | Sprint 3 |
