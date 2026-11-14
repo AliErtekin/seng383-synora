@@ -66,14 +66,25 @@
 
 ## PMP-3. Progress Review: Mid-term (v0.1)
 
-**Jira board screenshot:**  
+**Jira board screenshot:** ![Jira board, Week 7](img/jira-board-week7.png)
+
+*Status as of 2026-11-14 (Week 7). Release v0.1 (M1–M4) is due in Week 8.*
 
 | Epic | Planned for this point | Status (Done / In progress / Not started) |
 |---|---|---|
-| | | |
-| | | |
+| PMP-1 | Project, Jira setup, team and roles | Done |
+| PMP-2 | Work packages and sprint plan | Done |
+| DESIGN | Final SRS and SDD (Week 6) | Done |
+| M1 | Walking skeleton (v0.0), then login API and role-based screens for v0.1 | In progress (skeleton done: 4 of 7 tasks; login API and login page not started) |
+| M2 | Link and unlink specialists, access check, for v0.1 | Not started |
+| M3 | Schedule events API and weekly view, for v0.1 | Not started |
+| M4 | Tasks API and task screens, for v0.1 | Not started |
 
 **Changes to the plan (if any):**
+
+- Added an extra epic, DESIGN, for the Week 6 requirements and design work (allowed by the Project Workflow Guide). It is listed in the PMP-2 table.
+- The AI provider for M8 is the Gemini API, with a mock mode for tests and CI (SDD updated).
+- Sprint 2 (Weeks 6–8) keeps its goal, M1–M4 for release v0.1. Development of M1–M4 has not started yet because Weeks 5–7 went to the walking skeleton, the SRS and the SDD; the remaining v0.1 tasks (SCRUM-25 to SCRUM-33) are scheduled for the rest of Sprint 2.
 
 ---
 
