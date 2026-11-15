@@ -58,8 +58,8 @@
 | Sprint | Weeks | Sprint goal | Ends with |
 |---|---|---|---|
 | Sprint 1 | 5 | Walking skeleton and PMP section 2 | Walking skeleton (v0.0), Week 6 |
-| Sprint 2 | 6-8 | M1-M4: login, specialist linking, schedule, tasks | Release v0.1, mid-term |
-| Sprint 3 | 9-10 | M5-M8: entries, documents, statistics, AI summary | Release v0.2, Week 10 |
+| Sprint 2 | 6-9 | M1-M4: login, specialist linking, schedule, tasks | Release v0.1, mid-term (Week 9) |
+| Sprint 3 | 10 | M5-M8: entries, documents, statistics, AI summary | Release v0.2, Week 10 |
 | Sprint 4 | 11-12 | Bug fixing, final polish, retrospective | Release v1.0, final |
 
 ---
