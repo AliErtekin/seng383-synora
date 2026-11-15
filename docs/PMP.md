@@ -49,7 +49,7 @@
 | M6 | Ali Ertekin | 2 | Sprint 3 |
 | M7 | Ali Ertekin | 2 | Sprint 3 |
 | M8 | Ali Ertekin | 3 | Sprint 3,4|
-| DESIGN | Ali Ertekin | 2 | Sprint 2 |
+| DESIGN | Ali Ertekin | 3 | Sprint 2 |
 
 ### Sprint Plan
 
