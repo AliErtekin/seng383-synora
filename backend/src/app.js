@@ -3,6 +3,7 @@ const cors = require('cors');
 const { authRouter } = require('./routes/auth');
 const { childrenRouter } = require('./routes/children');
 const { eventsRouter } = require('./routes/events');
+const { tasksRouter } = require('./routes/tasks');
 
 // Builds the Express app. The database is injected so tests can use an in-memory one.
 function createApp(db) {
@@ -23,6 +24,7 @@ function createApp(db) {
   app.use('/api/auth', authRouter(db));
   app.use('/api/children', childrenRouter(db));
   app.use('/api/children/:childId/events', eventsRouter(db));
+  app.use('/api/children/:childId/tasks', tasksRouter(db));
 
   return app;
 }

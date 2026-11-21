@@ -34,6 +34,7 @@ function family() {
       get: (url) => agent.get(url).set('Authorization', auth),
       post: (url, body) => agent.post(url).set('Authorization', auth).send(body),
       patch: (url, body) => agent.patch(url).set('Authorization', auth).send(body),
+      delete: (url) => agent.delete(url).set('Authorization', auth),
     };
   };
   return { db, agent, as, ids, childId, otherChildId };

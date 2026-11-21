@@ -31,6 +31,18 @@ const SCHEMA = `
     title TEXT NOT NULL,
     starts_at TEXT NOT NULL
   );
+
+  CREATE TABLE IF NOT EXISTS tasks (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    child_id INTEGER NOT NULL REFERENCES child_profiles(id),
+    assigned_by_user_id INTEGER NOT NULL REFERENCES users(id),
+    title TEXT NOT NULL,
+    description TEXT NOT NULL DEFAULT '',
+    development_area TEXT NOT NULL,
+    due_date TEXT NOT NULL,
+    status TEXT NOT NULL DEFAULT 'pending' CHECK (status IN ('pending', 'completed')),
+    completed_at TEXT
+  );
 `;
 
 function createSchema(db) {
