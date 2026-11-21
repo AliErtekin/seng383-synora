@@ -64,3 +64,38 @@ jobs:
       - name: Klasör kontrolü
         if: hashFiles('frontend/package.json') == ''
         run: echo "frontend klasörü henüz yok, adımlar atlandı"
+
+  e2e:
+    name: End-to-end (Playwright)
+    runs-on: ubuntu-latest
+    needs: [backend, frontend]
+    steps:
+      - name: Kodu indir
+        uses: actions/checkout@v4
+
+      - name: Node kur
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Bağımlılıkları kur
+        run: |
+          npm ci --prefix backend
+          npm ci --prefix frontend
+          npm ci --prefix e2e
+
+      - name: Chromium kur
+        working-directory: e2e
+        run: npx playwright install --with-deps chromium
+
+      - name: Uçtan uca testleri çalıştır
+        working-directory: e2e
+        run: npx playwright test
+
+      - name: Rapor
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-report
+          path: e2e/playwright-report
+          retention-days: 7
