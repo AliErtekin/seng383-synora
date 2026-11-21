@@ -1,23 +1,50 @@
-import React, { useEffect, useState } from 'react';
+import React, { useCallback, useEffect, useState } from 'react';
+import { api, getToken, setToken, setUnauthorizedHandler } from './api.js';
+import Login from './components/Login.jsx';
+import Workspace from './components/Workspace.jsx';
+import ChildHome from './components/ChildHome.jsx';
 
-// Walking skeleton page: calls the backend health endpoint and shows the result.
+// M1: shows the login page, then only the screens of the signed-in account's role (FR-M1-03).
 export default function App() {
-  const [state, setState] = useState({ loading: true, status: null });
+  const [user, setUser] = useState(null);
+  const [checking, setChecking] = useState(Boolean(getToken()));
 
-  useEffect(() => {
-    fetch('/api/health')
-      .then((res) => res.json())
-      .then((data) => setState({ loading: false, status: data.status }))
-      .catch(() => setState({ loading: false, status: 'unreachable' }));
+  const logout = useCallback(() => {
+    setToken(null);
+    setUser(null);
   }, []);
 
+  useEffect(() => {
+    setUnauthorizedHandler(logout);
+    if (!getToken()) return;
+    api('/auth/me')
+      .then((data) => setUser(data.user))
+      .catch(() => logout())
+      .finally(() => setChecking(false));
+  }, [logout]);
+
+  function handleLogin({ token, user: account }) {
+    setToken(token);
+    setUser(account);
+  }
+
+  if (checking) return <p className="center muted">Loading…</p>;
+  if (!user) return <Login onLogin={handleLogin} />;
+
   return (
-    <main style={{ fontFamily: 'sans-serif', padding: '2rem' }}>
-      <h1>SYNORA</h1>
-      <p>AI-Assisted Child Development Platform</p>
-      <p data-testid="health">
-        {state.loading ? 'Checking backend...' : `Backend status: ${state.status}`}
-      </p>
-    </main>
+    <div className="app">
+      <header className="topbar">
+        <span className="brand">SYNORA</span>
+        <span className="who" data-testid="current-user">
+          {user.displayName} · <span className={`role role-${user.role}`}>{user.role}</span>
+        </span>
+        <button type="button" className="link" onClick={logout}>
+          Log out
+        </button>
+      </header>
+      <main className="content">
+        {user.role === 'child' ? <ChildHome user={user} /> : <Workspace user={user} />}
+      </main>
+    </div>
   );
 }
