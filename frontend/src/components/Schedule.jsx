@@ -68,7 +68,7 @@ export default function Schedule({ childId, canAdd, upcomingOnly = false }) {
       {events === null ? (
         <p className="muted">Loading…</p>
       ) : visible.length === 0 ? (
-        <p className="muted">No events this week.</p>
+        <p className="muted">{upcomingOnly ? 'No upcoming events this week.' : 'No events this week.'}</p>
       ) : (
         <ol className="days" aria-label="Events">
           {days.map((d) => {
