@@ -23,6 +23,14 @@ const SCHEMA = `
     specialist_type TEXT NOT NULL,
     UNIQUE (child_id, specialist_user_id)
   );
+
+  CREATE TABLE IF NOT EXISTS events (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    child_id INTEGER NOT NULL REFERENCES child_profiles(id),
+    created_by_user_id INTEGER NOT NULL REFERENCES users(id),
+    title TEXT NOT NULL,
+    starts_at TEXT NOT NULL
+  );
 `;
 
 function createSchema(db) {
