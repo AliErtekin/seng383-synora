@@ -162,10 +162,10 @@ erDiagram
 | GET | `/api/children/{childId}/specialists` | Lists linked specialists for the parent of the selected child. | M2 |
 | POST | `/api/children/{childId}/specialists` | The parent submits `email` and `specialistType`. Returns an error for an unregistered or non-specialist email. | M2 |
 | DELETE | `/api/children/{childId}/specialists/{linkId}` | Removes the specified link after the parent's confirmation in the client. | M2 |
-| GET | `/api/children/{childId}/events?weekStart=YYYY-MM-DD` | Lists events for the selected week for the parent, linked specialists and child. | M3 |
+| GET | `/api/children/{childId}/events?weekStart=YYYY-MM-DD&tz=<minutes>` | Lists events for the selected week for the parent, linked specialists and child. The optional `tz` (offset from UTC in minutes) makes the week start at the viewer's local midnight. | M3 |
 | POST | `/api/children/{childId}/events` | A parent or linked specialist submits `title` and `startsAt`. The start time includes a date and offset. | M3 |
 | GET | `/api/children/{childId}/tasks` | Lists tasks and status for authorized users. `assignedBy=me` filters the assigner's view. | M4 |
-| POST | `/api/children/{childId}/tasks` | A parent or linked specialist submits `title`, `description`, `developmentArea` and `dueDate`. The initial status is `pending`. | M4 |
+| POST | `/api/children/{childId}/tasks` | A parent or linked specialist submits `title`, `description`, `developmentArea` (`cognitive`, `language`, `motor`, `social-emotional` or `self-care`) and `dueDate`. The initial status is `pending`. | M4 |
 | PATCH | `/api/children/{childId}/tasks/{taskId}/status` | The child sets their own task's status to `completed`. Repeating completion returns the completed status. | M4 |
 | GET | `/api/children/{childId}/observations` | Lists dated observations for the parent and linked specialists. | M5 |
 | POST | `/api/children/{childId}/observations` | A linked specialist submits `observedOn` and `text` to add an observation. | M5 |
@@ -288,4 +288,5 @@ sequenceDiagram
 | 2026-11-08 | First version | SYNORA team |
 | 2026-11-08 | Marked as final Week 6 submission. | SYNORA team |
 | 2026-11-14 | Returned to first version: the course schedule sets the final version for Week 10. | SYNORA team |
+| 2026-11-22 | Recorded the `tz` parameter of the events API and the development areas used in v0.1. | SYNORA team |
 | 2026-11-08 | AI provider set to Gemini API. | SYNORA team |
