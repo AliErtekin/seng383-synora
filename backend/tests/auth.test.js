@@ -139,7 +139,18 @@ describe('requireRole', () => {
 describe('seed', () => {
   test('can run twice without duplicating accounts', () => {
     const db = seed(seed(openDatabase(':memory:')));
-    expect(db.prepare('SELECT COUNT(*) AS n FROM users').get().n).toBe(3);
-    expect(db.prepare('SELECT COUNT(*) AS n FROM child_profiles').get().n).toBe(1);
+    const count = (table) => db.prepare(`SELECT COUNT(*) AS n FROM ${table}`).get().n;
+    expect(count('users')).toBe(4);
+    expect(count('child_profiles')).toBe(1);
+    expect(count('specialist_links')).toBe(1);
+    expect(count('events')).toBe(2);
+    expect(count('tasks')).toBe(2);
+  });
+
+  test('places the demo records in the current week', () => {
+    const { dayOfThisWeek } = require('../src/seed');
+    expect(dayOfThisWeek(0, new Date('2026-11-25T12:00:00Z'))).toBe('2026-11-23');
+    expect(dayOfThisWeek(0, new Date('2026-11-23T00:00:00Z'))).toBe('2026-11-23');
+    expect(dayOfThisWeek(6, new Date('2026-11-29T23:00:00Z'))).toBe('2026-11-29');
   });
 });
